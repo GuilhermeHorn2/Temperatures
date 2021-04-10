@@ -1,0 +1,13 @@
+r = []
+while True:
+    s = input('Type (stop) if you want to finish:')
+    n = int(input(':'))
+    if s == 'stop':
+        break
+    r.append(n)
+m = sum(r)/len(r)
+mi = min(r)
+ma = max(r)
+print(m)
+print(ma)
+print(mi)
